@@ -1,0 +1,21 @@
+git init
+
+git remote add origin https://github.com/Tonyo5/SI_2023_lab1_151204.git
+
+echo "# Antonio_Gjorgjiev_151204" >> README.md
+
+git add README.md
+
+git commit -m "INitial comit"
+
+git branch -M master
+
+git push -u origin master
+
+git add SILab1.java.txt
+
+git comit -m "Add java class"
+
+git push
+
+git log
